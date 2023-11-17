@@ -1,0 +1,327 @@
+body {
+  background-color: #333;
+  margin: 0%;
+}
+
+.connexion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 17cm;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav .text_center {
+  float: left;
+  color: #BA9C02;
+  text-align: center;
+  padding: 25px 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+
+.topnav a.active {
+  background-color: #000000;
+  color: white;
+}
+
+.topnav button {
+  background-color: #000000;
+  color: #BA9C02;
+  margin-right: auto;
+  background: none;
+  border: none;
+  cursor: pointer;
+  /* Style du curseur pour indiquer qu'il est cliquable */
+  padding: 0;
+}
+
+.topnav .right {
+  float: right;
+  color: #BA9C02;
+  text-align: center;
+  padding: 25px 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav button:hover {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+
+.topnav button:active {
+  background-color: #000000;
+  color: white;
+}
+
+.topnav .noir {
+  background-color: #000000;
+}
+
+.topnav img {
+  float: inline-start;
+}
+
+.topnav form input {
+  margin: 5px 0;
+  padding: 5px 5px;
+  outline: 0;
+  border: 1px solid #9e1919;
+  border-radius: 6px;
+}
+
+.topnav a input {
+  background-color: #333;
+  border-radius: 6px;
+  color: black;
+}
+
+.topnav a input:hover {
+  background-color: rgb(190, 48, 48);
+  border-radius: 6px;
+  color: black;
+}
+
+.connexion .inscription {
+  background-color: #333;
+}
+
+
+
+h1 {
+  color: rgb(178, 104, 104);
+  font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+  color: #b5a9a9;
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  color: #b5a9a9;
+  font-family: 'Roboto', sans-serif;
+}
+
+.pass-field i {
+  right: 18px;
+  top: 50%;
+  font-size: 1.2rem;
+  color: #999;
+  cursor: pointer;
+  position: absolute;
+  transform: translateY(-50%);
+}
+
+.requirement-list{
+  margin-top: 20px;
+}
+.requirement-list li{
+  font-size: 1rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.requirement-list li i{
+  width: 20px;
+  color: #ff0000;
+  font-size: 0.6rem;
+}
+
+.requirement-list li.valid i{
+  font-size: 1.2rem;
+  color: #0bb814;
+}
+
+.requirement-list li span{
+  margin-left: 12px;
+  color: #ff0000;
+}
+
+.requirement-list li.valid span{
+  color: #0bb814;
+}
+
+.section-connexion {
+  background-color: wheat;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  height: auto;
+  width: 350px;
+  box-sizing: border-box;
+  justify-content: center;
+  border-radius: 6px;
+}
+
+.section-connexion h1 {
+  text-align: center;
+}
+
+.section-connexion form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  margin: 5px 0;
+  padding: 5px 5px;
+  outline: 0;
+  border: 1px solid #000000;
+  border-radius: 6px;
+}
+
+form input[type='submit'] {
+  background-color: #333;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+
+form input[type='submit']:hover {
+  background-color: white;
+  border-radius: 6px;
+  color: #333;
+  cursor: pointer;
+}
+
+.center-button {
+  text-align: center;
+  margin-top: 20px; /* Ajustez cette marge selon vos besoins */
+}
+
+
+.connecter {
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10%;
+  margin: 10px;
+}
+
+.name-account{
+  background-color: #333;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  height: auto;
+  width: auto;
+  box-sizing: border-box;
+  box-shadow: 10px 5px 5px black;
+  border-radius: 6px;
+  margin: 10px 10px 10px 10px;
+  border: 1px solid rgb(178, 104, 104);
+  margin: 10px;
+}
+
+.img-account{
+  float: inline-start;
+  border-radius: 50%;
+  margin: 10px 10px 10px 10px;
+}
+
+.name{
+  margin: 10px 0px 10px 0px;
+  text-align: center;
+  padding: 10px;
+
+}
+
+
+
+.details{
+  display: flex;
+  justify-content: space-between;
+  background:rgba(0, 0, 0, 0.14);
+  margin: 50px;
+  padding: 20px 50px;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.68);
+}
+
+.details .item .item-title{
+  color: #ccc;
+}
+
+.details .item .item-text{
+  margin-top: 12px;
+  font-size: 1.5rem;
+
+}
+
+.multipleBlog{
+  background-color: wheat;
+  margin: 10px 10px 10px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+
+}
+.txt-articles{
+  margin: 1vh 5vw;
+  border: 1px solid #9e1919;
+  background-color: #9e1919;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 5vw;
+  color: #000000;
+}
+
+.blog{
+  width: 100vw;
+  height: 75vh;
+  border: 1px solid #000000;
+  border-radius: 6px;
+  margin: 25px 5px 50px 5px;
+  display: grid;
+  overflow: hidden;
+}
+
+.blog img{
+  width: 89vw;
+  height: 50vh;
+  object-fit: cover;
+}
+.info-blog{
+  width: auto;
+  background-color: #333;
+  color: #9e1919;
+  font-size: 2.3vh;
+  display: flex;
+}
+
+.game-name{
+flex: auto;
+}
+
+.game-info{
+flex: auto;
+}
+
+.game-pegi{
+flex: none;
+}
+
+.articleName{
+  width: auto;
+  height: 50vh;
+  text-align: center;
+  color: #9e1919;
+  font-size: 5vh;
+  background-color: rgb(243, 203, 128);
+
+}
